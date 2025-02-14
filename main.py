@@ -196,4 +196,4 @@ if __name__ == '__main__':
     goose = Find_ORFS("influenza/goose.fa")
     human = Find_ORFS("influenza/homo_sapiens.fa")
 
-    print("\n".join(map(str, human)))
+    print("\n".join(map(str, goose)))
